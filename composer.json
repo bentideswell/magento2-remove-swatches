@@ -1,0 +1,20 @@
+{
+    "name": "fishpig/magento2-remove-swatches",
+    "description": "",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "FishPig\\RemoveSwatches\\": "",
+            "Magento\\Swatches\\": "Mock\\Magento\\Swatches"
+        }
+    },
+    "version": "1.0.0",
+    "replace": {
+        "magento/module-swatches": "*",
+        "magento/module-swatches-layered-navigation": "*",
+        "magento/module-swatches-graph-ql": "*"
+    }
+}
