@@ -11,7 +11,7 @@
             "Magento\\Swatches\\": "Mock\\Magento\\Swatches"
         }
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "replace": {
         "magento/module-swatches": "*",
         "magento/module-swatches-layered-navigation": "*",
